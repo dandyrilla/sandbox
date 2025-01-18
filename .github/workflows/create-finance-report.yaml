@@ -22,4 +22,5 @@ jobs:
       run: |
         python scripts/create_finance_report.py
       env:
+        PYTHONPATH: "."
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
