@@ -22,5 +22,5 @@ repos:
     hooks:
     -   id: isort
         name: isort (python)
-        args: [--project=app, --skip-gitignore]
+        args: [--project=sandbox, --skip-gitignore]
         files: \.py$
